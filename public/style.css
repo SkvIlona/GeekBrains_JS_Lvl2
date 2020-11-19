@@ -1,0 +1,110 @@
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container-fluid  {
+  padding: 0!important;
+  height: 100vh;
+  background-color: #FFFFF0;
+}
+
+.list-of-all-products, .order-list {
+    width: 45%;
+    border: 3px solid #E9967A;
+    border-radius: 15px;
+    margin-top: 25px;
+}
+
+.list-of-all-products {
+    margin-left: 2.5%;
+}
+
+.order-list {
+    margin-left: 5%;
+}
+
+.title-list-of-all-products, .title-order-list {
+    text-align: center;
+    padding-top: 15px;
+}
+
+.order-price, .title-order-price {
+    display: inline-block;
+    width: 50%;
+    text-align: center;
+    margin-top: 10px;
+    font-weight: 700;
+}
+
+.total {
+    margin-top: 15px;
+    padding-left: 15px;
+    font-weight: 700;
+    background-color: #E9967A;
+}
+
+.buy-product {
+    margin-left: 5px;
+    padding: 10px;
+    text-decoration: none;
+    border-radius: 15px;
+}
+
+.my-btn-buy-plus, .my-btn-buy-minus {
+    width: 5%;
+    text-align: center;
+    cursor: pointer;
+    padding: 5px 15px;
+    margin-left: 10px;
+    border-radius: 3px;
+    background-color: #FAF0E6;
+}
+
+.my-btn-buy-plus:hover, .my-btn-buy-minus:hover {
+    background-color: cornflowerblue;
+}
+
+.name-product, .price-product, .quantity-product {
+    display: inline-block;
+    margin-top: 10px;
+    width: 30%;
+    text-align: center;
+}
+
+.quantity-product {
+    width: 10%;
+}
+
+.my-btn-buy {
+    display: inline-block;
+    padding: 10px;
+    border: none;
+    outline: none!important;
+    border-radius: 5px;
+    margin-top: 15px;
+}
+
+.my-btn-buy:hover, .my-btn-add:hover {
+    background-color: cornflowerblue;
+}
+
+.my-btn-buy:active, .my-btn-add:active {
+    background-color: cornflowerblue;
+    font-weight: 700;
+}
+
+.my-btn-add {
+    display: inline-block;
+    padding: 10px;
+    border: none;
+    outline: none!important;
+    border-radius: 5px;
+    position: absolute;
+    bottom: 12px;
+    left: 30px;
+
+    background-color: grey;
+
+}
